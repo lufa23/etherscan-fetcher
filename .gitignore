@@ -1,0 +1,18 @@
+# Ignore the .env file that contains sensitive API keys
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore JSON files with transaction data (output files)
+*.json
+
+# Ignore system-specific files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment directories
+venv/
+.env/
+
